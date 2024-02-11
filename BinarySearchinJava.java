@@ -27,6 +27,7 @@ public class BinarySearchinJava
         for (int element: num) {
             System.out.print(element+" ");
         }
+        System.out.println();
         System.out.println("Enter the number which you want to search : ");
         int target = sc.nextInt();
         int result = binarySearch(num, 0, num.length - 1,target);
