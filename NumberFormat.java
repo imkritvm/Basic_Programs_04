@@ -7,10 +7,10 @@ public class Main
 		System.out.println("Hello World");
 		double cV = 123445.5321;
 		
-		Locale locale1 = new Locale("en", "CN");
+		Locale locale1 = new Locale("zh", "CN");
 		Locale locale2= new Locale("en", "US");
 		Locale locale3 = new Locale("en", "IN");
-		Locale locale4 = new Locale("en", "FR");
+		Locale locale4 = new Locale("fr", "FR");
 		
 		String dL1 = locale1.getDisplayLanguage();
 		String dL2= locale2.getDisplayLanguage();
