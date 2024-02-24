@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class UsernameValidator {
-
+/*
     public static void UsernameValidator(String username) {
 
         char firstChar = username.charAt(0);
@@ -23,7 +23,7 @@ class UsernameValidator {
                 System.out.println("Valid");
             }    
         }
-    }
+    }*/
     public static final String regularExpression = "^[a-zA-Z]\\w{7,29}$";
 }
 
